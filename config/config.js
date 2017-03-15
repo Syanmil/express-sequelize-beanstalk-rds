@@ -1,15 +1,15 @@
-module.exports = 
+module.exports =
 {
   "development": {
-    "username": "postgres",
-    "password": null,
+    "username": "admin",
+    "password": "password",
     "database": "startup_quotes",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
-    "username": "postgres",
-    "password": null,
+    "username": "admin",
+    "password": "password",
     "database": "startup_quotes_test",
     "host": "127.0.0.1",
     "dialect": "postgres"
